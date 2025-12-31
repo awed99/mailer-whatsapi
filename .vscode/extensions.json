@@ -1,0 +1,43 @@
+{
+  "recommendations": [
+    // ===============================
+    // ⚛️ React / JavaScript Essentials
+    // ===============================
+    "dsznajder.es7-react-js-snippets", // Snippets React + Redux
+    "xabikos.javascriptsnippets", // JS snippets tambahan
+    "christian-kohler.npm-intellisense", // Autocomplete import dari npm
+    "planbcoding.vscode-react-refactor", // Refactor komponen React
+    "chakrounanas.turbo-console-log", // Shortcut cepat console.log
+    // ===============================
+    // 💅 Style / CSS / SCSS
+    // ===============================
+    "mrmlnc.vscode-scss", // SCSS IntelliSense
+    "syler.sass-indented", // Support file .sass (indented)
+    "zignd.html-css-class-completion", // Auto-complete nama class CSS di JSX
+    // ===============================
+    // 🧹 Code Quality / Formatting
+    // ===============================
+    "esbenp.prettier-vscode", // Formatter Prettier
+    "dbaeumer.vscode-eslint", // ESLint integrasi
+    "editorconfig.editorconfig", // Gunakan .editorconfig rules
+    "kisstkondoros.vscode-codemetrics", // Analisis kompleksitas kode
+    "usernamehw.errorlens", // Tampilkan error langsung di editor
+    "aaron-bond.better-comments", // Warna berbeda di komentar
+    // ===============================
+    // 🧭 Git & Productivity
+    // ===============================
+    "eamodio.gitlens", // Insight Git
+    "gamunu.vscode-yarn", // Support Yarn commands
+    "jasonnutter.search-node-modules", // Cari cepat di node_modules
+    "coenraads.bracket-pair-colorizer", // Warna pasangan bracket
+    "formulahendry.auto-close-tag", // Auto close tag HTML/JSX
+    "formulahendry.auto-rename-tag", // Auto rename pair tag
+    // ===============================
+    // 📄 Markdown / Docs
+    // ===============================
+    "yzhang.markdown-all-in-one", // Markdown utilities
+    "davidanson.vscode-markdownlint", // Markdown linting
+    "streetsidesoftware.code-spell-checker", // Cek typo / ejaan
+    "quicktype.quicktype" // Generate tipe data dari JSON
+  ]
+}
