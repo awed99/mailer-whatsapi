@@ -4,6 +4,15 @@ import { NextResponse } from "next/server";
 
 export default async function proxy(request) {
   const url = new URL(request.url);
+
+  // 🚫 REDIRECT GET KE LANDING PAGE
+  if (request.method === "GET") {
+    return NextResponse.redirect(
+      "https://whatsapi.io",
+      307
+    );
+  }
+
   const signature = request.headers.get("x-signature");
 
   if (!signature) {
